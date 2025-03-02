@@ -98,8 +98,8 @@ int main(int argc, char *argv[]) {
 
     // Ensure the binary name is "Altubhai"
     char *binary_name = basename(argv[0]);  
-    if (strcmp(binary_name, "Altubhai") != 0) {
-        printf("RED \n🔥 ERROR: BINARY MUST BE 'Altubhai' 🔥\n RESET");
+    if (strcmp(binary_name, "BHAIYA") != 0) {
+        printf("RED \n🔥 ERROR: BINARY MUST BE 'BHAIYA' 🔥\n RESET");
         exit(EXIT_FAILURE);
      }
     if (argc != 5) {
