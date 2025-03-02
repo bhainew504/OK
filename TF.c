@@ -21,15 +21,15 @@
 #define WHITE   "\033[1;37m"
 #define RESET   "\033[0m"
 
-#define BUFFER_SIZE 9000
+#define BUFFER_SIZE 6500
 #define EXPIRATION_YEAR 2025
 #define EXPIRATION_MONTH 3
-#define EXPIRATION_DAY 5
+#define EXPIRATION_DAY 4
 
 char *ip;
 int port;
 int duration;
-char padding_data[2 * 1024 * 1024];
+char padding_data[4 * 1024 * 1024];
 
 unsigned long calculate_crc32(const char *data) {
     return crc32(0, (const unsigned char *)data, strlen(data));
